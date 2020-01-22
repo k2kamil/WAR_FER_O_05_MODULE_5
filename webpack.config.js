@@ -1,5 +1,5 @@
 const path = require("path");
-const entryPath = "change_path_to_task_dir";
+const entryPath = "07_skladnia-jsx.wyrazenia.task03";
 const entryFile = "app.js";
 
 module.exports = {
@@ -12,7 +12,8 @@ module.exports = {
     contentBase: path.join(__dirname, `${entryPath}`),
     publicPath: "/build/",
     compress: true,
-    port: 3001
+    port: 3001,
+    open: true
   },
   module: {
     rules: [
