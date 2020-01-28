@@ -1,5 +1,5 @@
 const path = require("path");
-const entryPath = "07_skladnia-jsx.wyrazenia.task03";
+const entryPath = "57_state.wprowadzenie-do-state.task02";
 const entryFile = "app.js";
 
 module.exports = {
